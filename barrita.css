@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.barrita {
+  height: 5em;
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lista {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+  width: 100%;
+  list-style: none;
+  color: white;
+  
+}
+
+.auto {
+  height: 100%;
+  width: 20%;
+}
+.autito {
+  font-size: 50px;
+  color: orange;
+}
